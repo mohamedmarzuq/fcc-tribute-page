@@ -2,12 +2,15 @@
 
 } */
 html {
-    
+    margin: 0px;
+    padding: 0px;
 }
 body {
     background-color: #000000;
 }
-
+img {
+    width: 300px; 
+}
 
 #title-timcook {
     color: #fff;
