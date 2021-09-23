@@ -21,8 +21,12 @@ p{
     font-size: 30px;
     line-height: 58px;
 }
+span{
+    
+}
 
 #title-timcook {
-    color: #fff;
-
+    text-decoration: none;
+    color: inherit;
+    
 }
