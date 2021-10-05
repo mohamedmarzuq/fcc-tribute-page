@@ -1,4 +1,4 @@
 # FCC-Tribute-Page
- This is a project done for the FreeCodeCamp web design course. The assignment was to build the design a Tribute Page.  If you wanna see the live version, click the link below.  https://mohamedmarzuq.github.io/fcc-tribute-page/.
-
-The UI inspiration for this project is from https://dribbble.com/shots/9057644-Carlos-Chagas-Tribute-Page-FreeCodeCamp. But there is some change in UI design. 
+ This is a project/assignment submitted for the FreeCodeCamp "responsive web design" course. The assignment was to build a Tribute Page. So I thought I'm already going to make one, then it's the best chance to make one for my hard core fan called "Tim Cook" :).
+ 
+ The fonts, theme and layouts are mainly inspired from https://apple.com/. If you want to see the live page, click this -> https://mohamedmarzuq.github.io/fcc-tribute-page/.
