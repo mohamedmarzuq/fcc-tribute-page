@@ -1,10 +1,21 @@
-:root {
+/*colors declararation variable*/
+ :root {
     --background-color: #000000;
     --first-color: ;
     --second-color: ;
     --third-color: ;
 }
 
+/* start global */
+html {
+    /*Setting a base font size us easier rem calculations
+      Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth 
+     */  
+    font-size: 10px;  
+}
+
 h1 {
     color: var(--first-color);
-}
+} 
+
+/*end global*/
