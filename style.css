@@ -1,4 +1,4 @@
-/*colors declararation variable*/
+/*colors declararations*/
  :root {
     --background-color: #000000;
     --first-color: ;
@@ -8,14 +8,56 @@
 
 /* start global */
 html {
-    /*Setting a base font size us easier rem calculations
+    /*Setting a base font size of 10px gives us easier rem calculations
       Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth 
      */  
     font-size: 10px;  
 }
 
-h1 {
-    color: var(--first-color);
-} 
+body {
+    background-color: #000000;
+    margin: 0;
+    color: white;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
 
+h1 {
+    font-size: 8.5rem;
+    margin-bottom: 0;
+}
+
+@media (max-width: 760px) {
+    h1 {
+        /* font-size: ; */
+        background-color: red;
+        /*line-height: 1.2;*//*maybe i'll uncomment when I wanted. now i just did this not to forget.*/ 
+    }
+}
+
+h2{
+    z-index: 3;
+    margin-top: -40px;
+    font-size: 2rem;
+    background: pink;
+}
+
+a {
+    color: #404346;
+}
+
+a:visited {
+    color: #74638f;
+}
 /*end global*/
+
+#main {
+    margin-top: 6rem;
+    margin-left: 9rem;
+    background: #74638f;
+}
+
+#main-title_subtitle {
+    padding: 0px;
+    background: orange;
+}
