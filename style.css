@@ -2,9 +2,9 @@
  :root {
     --background-color: #000000;
     --first-color: ;
-    --second-color: ;
+   
+} --second-color: ;
     --third-color: ;
-}
 
 /* start global */
 html {
@@ -25,6 +25,7 @@ body {
 h1 {
     font-size: 8.5rem;
     margin-bottom: 0;
+    padding-bottom: 1px;
 }
 
 @media (max-width: 760px) {
@@ -36,7 +37,6 @@ h1 {
 }
 
 h2{
-    z-index: 3;
     margin-top: -40px;
     font-size: 2rem;
     background: pink;
