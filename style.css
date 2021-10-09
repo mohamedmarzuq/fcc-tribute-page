@@ -12,6 +12,7 @@ html {
       Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth 
      */  
     font-size: 10px;  
+    scroll-behavior: smooth;
 }
 
 * {   
