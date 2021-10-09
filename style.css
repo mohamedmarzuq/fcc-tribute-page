@@ -27,10 +27,12 @@ body {
     background-color: #000000;
     font-size: 1rem;
     line-height: 1.5;
+    overflow-x: hidden;
 }
 
 section {
     background-color: #74638f;
+    overflow: hidden;
 }
 
 .container {
