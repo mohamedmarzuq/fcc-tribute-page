@@ -6,6 +6,22 @@
     --third-color: ;
 } 
 
+h2,
+h6,
+p,
+a
+ {
+  background-color: rgba(235, 27, 173, 0.424);
+}
+h3{background-color: blue;}
+h1{background-color: violet;}
+.container {
+  background-color: blue;
+}
+section {
+  background-color: #000000 !important;
+}
+
 /* start global */
 html {
     /*Setting a base font size of 10px gives us easier rem calculations
@@ -22,9 +38,15 @@ html {
   list-style-type: none;
 }
 
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 body {
     font-family: "SF Pro TH","SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    background-color: #000000;
+    color: white;
     font-size: 1rem;
     line-height: 1.5;
     overflow-x: hidden;
@@ -33,7 +55,10 @@ body {
 #main {
     background-color: #74638f;
     overflow: hidden;
+    font-size: 2.4rem;
 }
+
+
 
 .container {
     width: 100%;
@@ -41,7 +66,7 @@ body {
     margin-right: auto;
     padding: 0 1.6rem;
     max-width: 1140px;
-    background-color: cadetblue;
+    background-color: #000000;
 }
 
 a {
@@ -51,4 +76,24 @@ a {
 a:visited {
     color: #74638f;
 }
-/*end global*/
+
+a:hover {
+    opacity: 0.7;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+left_right-div {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
