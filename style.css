@@ -30,26 +30,18 @@ body {
     overflow-x: hidden;
 }
 
-section {
+#main {
     background-color: #74638f;
     overflow: hidden;
 }
 
 .container {
-    padding: 23vrem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1.6rem;
+    max-width: 1140px;
     background-color: cadetblue;
-}
-
-h1 {
-    font-size: 8.5rem;
-    margin-bottom: 0;
-    padding-bottom: 1px;
-}
-
-h2{
-    margin-top: -40px;
-    font-size: 2rem;
-    background: pink;
 }
 
 a {
@@ -60,15 +52,3 @@ a:visited {
     color: #74638f;
 }
 /*end global*/
-
-#main {
-    margin-top: 6rem;
-    margin-left: 9rem;
-    background: #74638f;
-    position: relative;
-}
-
-#main-title_subtitle {
-    padding: 0px;
-    background: orange;
-}
