@@ -1,8 +1,7 @@
 /*colors declararations*/
  :root {
-    --background-color: #000000;
-    --first-color: white;
-    --second-color: ;
+    --first-color: #000;
+    --second-color: #fff;
     --third-color: ;
 } 
 
@@ -93,7 +92,7 @@ button:hover {
     justify-content: space-between;
 }
 
-left_right-div {
+#left_right-div {
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
