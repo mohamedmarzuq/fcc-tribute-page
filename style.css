@@ -13,7 +13,7 @@ a
   background-color: rgba(235, 27, 173, 0.424);
 }
 h3{background-color: blue;}
-h1{background-color: violet;}
+h1{background-color: violet; margin: 0;}
 .container {
   background-color: blue;
 }
