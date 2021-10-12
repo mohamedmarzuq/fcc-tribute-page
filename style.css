@@ -96,3 +96,9 @@ button:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+#tim_img-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
