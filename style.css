@@ -76,9 +76,9 @@ h1 {
     line-height: 1.4;
     max-width: 500.83px;
     max-height: 88.1px;
-    /* display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
 }
 
 a {
