@@ -63,9 +63,15 @@ body {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 1.6rem;
+    padding: 1.6rem 1.6rem;
     max-width: 1140px;
     background-color: #000000;
+}
+
+h1 {
+    color: 
+    font-size: ;
+    font-family: ;
 }
 
 a {
@@ -100,9 +106,11 @@ button:hover {
 #tim_img-div {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
 }
 
 #tim-img {
-    max-width: 100%;
+    width: 100%;
+    max-width: 40rem;
+    height: auto;
 }
