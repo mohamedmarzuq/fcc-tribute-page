@@ -74,7 +74,7 @@ h1 {
     font-weight: bold;
     font-style: normal;
     line-height: 1.4;
-    max-width: 500.83px;   /*this width and height have doubt in responsiveness*/
+    /*max-width: 5000.83px !important;*/ /*this width and height have doubt in responsiveness*/
     max-height: 76.1px;
     display: flex;
     /* justify-content: center; */
@@ -84,6 +84,7 @@ h1 {
 
 h3 {
     color: #A1A1A6;
+    
 }
 
 a {
