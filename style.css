@@ -94,11 +94,15 @@ button:hover {
 
 #left_right-div {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 35% 65%;
 }
 
 #tim_img-div {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#tim-img {
+    max-width: 100%;
 }
