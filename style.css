@@ -62,7 +62,6 @@ body {
 .container {
     width: 100%;
     margin-left: auto;
-    margin-right: auto;
     padding: 1.6rem 1.6rem;
     max-width: 1140px;
     background-color: #000000;
@@ -72,6 +71,8 @@ h1 {
     color: #F5F5F7;
     font-size: 8.5rem;
     font-weight: bold;
+    font-style: normal;
+    line-height: 1.4;
 }
 
 a {
@@ -100,7 +101,7 @@ button:hover {
 
 #left_right-div {
     display: grid;
-    grid-template-columns: 35% 65%;
+    grid-template-columns: 45% 75%;
 }
 
 #tim_img-div {
@@ -111,6 +112,6 @@ button:hover {
 
 #tim-img {
     width: 100%;
-    max-width: 40rem;
+    max-width: 35rem;
     height: auto;
 }
