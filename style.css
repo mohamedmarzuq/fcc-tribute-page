@@ -5,21 +5,13 @@
     --third-color: ;
 } 
 
-h2,
-h6,
-p,
-a
- {
-  background-color: rgba(235, 27, 173, 0.424);
-}
+/* h2,h6,p,a{background-color: rgba(235, 27, 173, 0.424);}
 h3{background-color: blue;}
 h1{background-color: violet; margin: 0;}
-.container {
-  background-color: blue;
-}
-section {
-  background-color: #000000 !important;
-}
+.container{background-color: blue;}
+section{background-color: #000000 !important;} 
+main{background-color: #74638f;} 
+body{color: white;} */
 
 /* start global */
 html {
@@ -45,16 +37,15 @@ html {
 
 body {
     font-family: "Montserrat";
-    color: white;
     font-size: 1rem;
     line-height: 1.5;
     overflow-x: hidden;
 }
 
 #main {
-    background-color: #74638f;
     overflow: hidden;
     font-size: 2.4rem;
+    background-color: #000;
 }
 
 
@@ -63,7 +54,7 @@ body {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding: 1.6rem 1.6rem;
+    padding: 2.6rem 2.6rem;
     max-width: 1140px;
     background-color: #000000;
 }
