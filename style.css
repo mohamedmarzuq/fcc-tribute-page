@@ -151,21 +151,29 @@ button:hover {
     display: inline-block;
     /* background: rgba(41, 40, 40, 0.973);  maybe i'll add this*/
     position: relative;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.5rem;
+    color: #D9D9D9;
+    /* background-color: #74638f; */
+    line-height: 4rem;
+    /* height: 70px; */
+    padding: 0;
 }
 
-#quotes {
-    max-width: ;
+p img {
+    width: 20px;
 }
 
 #quote-left-top {
     position: absolute;
-    left: 0;
-    top: 0;
+    left: -5.5px;
+    top: 2px;
 }
 #quote-right-bottom {
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 30.5px;
+    bottom: 2px;
 }
 
 #tim_img-div {
@@ -175,6 +183,10 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: center;/*why it is centering always*/
+}
+
+#bottom-div {
+
 }
 
 #tim-img {
