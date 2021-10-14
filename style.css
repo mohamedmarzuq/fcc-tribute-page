@@ -139,15 +139,33 @@ button:hover {
 }
 
 #quote-div {
-    position: relative;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 #quote {
     margin-left: auto;
     margin-right: auto;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    display: inline-block;
+    /* background: rgba(41, 40, 40, 0.973);  maybe i'll add this*/
+    position: relative;
+}
+
+#quotes {
+    max-width: ;
+}
+
+#quote-left-top {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#quote-right-bottom {
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
 #tim_img-div {
