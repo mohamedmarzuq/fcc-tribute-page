@@ -49,7 +49,7 @@ body {
 }
 
 
-.section-1 .left_right-div {
+.section-1 #top-div {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -133,10 +133,19 @@ button:hover {
 
 /* # */
 
-#left_right-div {
+#top-div {
     display: flex;
     /* grid-template-columns: 45% 75%; */
     }
+
+#quote {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
 
 #tim_img-div {
     /* background-color: #fff; */
