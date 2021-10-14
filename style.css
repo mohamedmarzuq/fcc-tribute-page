@@ -136,7 +136,11 @@ button:hover {
 #top-div {
     display: flex;
     /* grid-template-columns: 45% 75%; */
-    }
+}
+
+#quote-div {
+    position: relative;
+}
 
 #quote {
     margin-left: auto;
@@ -144,7 +148,6 @@ button:hover {
     display: flex;
     justify-content: center;
     text-align: center;
-    
 }
 
 #tim_img-div {
