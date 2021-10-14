@@ -48,6 +48,13 @@ body {
     background-color: #000;
 }
 
+
+.section-1 .left_right-div {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
 .container {
     width: 100%;
     margin-left: auto;
@@ -58,18 +65,19 @@ body {
 }
 
 h1 {
+    padding-top: 0;
+    padding-bottom: 0;
     color: #F5F5F7;
     font-size: 6.5rem;
     font-weight: bold;
     font-style: normal;
-    line-height: 1.4;
     /*max-width: 5000.83px !important;*/ /*this width and height have doubt in responsiveness*/
-    max-height: 76.1px;
+    max-height: 65px;
     display: flex;
     /* justify-content: center; */
     align-items: center;
     margin-bottom: 0;
-    margin-top: auto;
+    margin-top: 0;
 }
 
 h3 {
@@ -123,19 +131,23 @@ button:hover {
     justify-content: space-between;
 }
 
+/* # */
+
 #left_right-div {
-    display: grid;
-    grid-template-columns: 45% 75%;
-}
+    display: flex;
+    /* grid-template-columns: 45% 75%; */
+    }
 
 #tim_img-div {
+    /* background-color: #fff; */
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;/*why it is centering always*/
 }
 
 #tim-img {
-    width: 100%;
-    max-width: 35rem;
+    width: 31rem;
     height: auto;
 }
