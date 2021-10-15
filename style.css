@@ -48,18 +48,18 @@ body {
     background-color: #000;
 }
 
-
 .section-1 #top-div {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 100px;
 }
+
 .container {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding: 2.6rem 2.6rem;
+    padding: 2.6rem;
     max-width: 1140px;
     background-color: #000000;
 }
@@ -71,7 +71,7 @@ h1 {
     font-size: 6.5rem;
     font-weight: bold;
     font-style: normal;
-    /*max-width: 5000.83px !important;*/ /*this width and height have doubt in responsiveness*/
+    /*max-width: 5000.83px !important;*/ /*this width and height have doubt in responsiveness. Change tis width and height to a div or like parent div*/
     max-height: 65px;
     display: flex;
     /* justify-content: center; */
@@ -154,8 +154,7 @@ button:hover {
 }
 
 #left-div {
-    background: chocolate;
-
+    /* background: chocolate; */
 }
 
 #quote {
@@ -196,7 +195,7 @@ p img {
     display: flex;
     align-items: center;
     justify-content: center;/*why it is centering always*/
-    background: cyan;
+    /* background: cyan; */
 }
 
 
