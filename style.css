@@ -52,7 +52,7 @@ body {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 100px;
+    margin-bottom: 10rem;
 }
 
 .container {
@@ -83,7 +83,7 @@ h1 {
 h3 {
     color: #A1A1A6;
     font-size: 3rem;
-    margin-top: -10px;
+    margin-top: -1.0rem;
     font-style: normal;
     font-weight: 500;
     line-height: 4.9rem;
@@ -147,7 +147,7 @@ button:hover {
 
 #bottom-div {
     /* background: blueviolet;  */
-    height: 150px;
+    height: 15.0rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -174,18 +174,18 @@ button:hover {
 }
 
 p img {
-    width: 20px;
+    width: 2rem;
 }
 
 #quote-left-top {
     position: absolute;
-    left: -5.5px;
-    top: -2.53px;
+    left: -.55rem;
+    top: -.253rem;
 }
 #quote-right-bottom {
     position: absolute;
-    right: 53px;
-    bottom: -2px;
+    right: 5.3rem;
+    bottom: -0.2rem;
 }
 
 #tim_img-div {
@@ -244,7 +244,7 @@ p img {
 @media only screen and (max-width: 576px) {
     .container {
         max-width: 1140px;
-        /* background: hsla(0, 34%, 47%, 0.25); */
+        background: hsla(0, 34%, 47%, 0.25);
     }
 }
 
