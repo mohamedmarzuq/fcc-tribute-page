@@ -207,7 +207,7 @@ p img {
 @media only screen and (max-width: 1200px) {
     .container {
         max-width: 1140px;
-        /* background: coral; */
+        background: coral;
     }
 
     #left-div {
@@ -220,18 +220,21 @@ p img {
 @media only screen and (max-width: 922px) {
     .container {
        max-width: 960px;
+       background: blue;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .container {
         max-width: 720px;
+        background: red;
     }
 }
 
 @media only screen and (max-width: 576px) {
     .container {
         max-width: 1140px;
+        background: rgba(160, 78, 78, 0.25);
     }
 }
 
