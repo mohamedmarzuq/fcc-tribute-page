@@ -143,6 +143,7 @@ button:hover {
     display: flex;
     justify-content: center;
     text-align: center;
+    margin: auto;
 }
 
 #bottom-div {
@@ -158,8 +159,7 @@ button:hover {
 }
 
 #quote {
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     display: inline-block;
     /* background: rgba(41, 40, 40, 0.973);  maybe i'll add this*/
     position: relative;
