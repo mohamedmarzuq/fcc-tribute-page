@@ -67,7 +67,7 @@ body {
 h1 {
     padding-top: 0;
     padding-bottom: 0;
-    /* color: #F5F5F7; */
+    color: #F5F5F7;
     font-size: 6.5rem;
     font-weight: bold;
     font-style: normal;
@@ -78,7 +78,8 @@ h1 {
     align-items: center;
     margin-bottom: 0;
     margin-top: 0;
-    background: radial-gradient(#eff1ff, #000);
+    /* radial gradient */
+    /* background: radial-gradient(#eff1ff, #000);
     background-position-x: 0%;
     background-position-y: 0%;
     background-size: auto;
@@ -86,7 +87,8 @@ h1 {
     background-position: 50% 100%;
     -webkit-background-clip: text;
     background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
+    /* radial gradient */
 }
 
 h3 {
@@ -94,15 +96,13 @@ h3 {
     font-size: 3rem;
     margin-top: -1.0rem;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 4.9rem;
     text-shadow: 0px 4px 4px rgba(160, 78, 78, 0.25);
 }
 
 p {
     font-size: 2.25rem;
-    max-width: 76.2rem;
-    max-height: 29.2;
     line-height: 3.75rem;
     padding-top: 2rem;
     font-weight: 500;
@@ -211,6 +211,24 @@ p img {
 #tim-img {
     width: 31rem;
     height: auto;
+}
+
+#tim-paragraph {
+    /* background: #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#tim-paragraph p {
+    padding-top: 0;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+    background: #fff;
+    max-width: 500px;
 }
 
 @media only screen and (max-width: 1200px) {
