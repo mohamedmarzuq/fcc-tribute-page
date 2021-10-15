@@ -208,12 +208,31 @@ p img {
 @media only screen and (max-width: 1200px) {
     .container {
         max-width: 1140px;
-        background: coral;
+        /* background: coral; */
     }
 
     #left-div {
         /* width: 55%; */
-        background: red;
+        /* background: red; */
     }
     
 }
+
+@media only screen and (max-width: 922px) {
+    .container {
+       max-width: 960px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
