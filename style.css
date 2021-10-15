@@ -157,10 +157,11 @@ button:hover {
 
 #bottom-div {
     /* background: blueviolet;  */
-    height: 15.0rem;
+    margin-top: 4.1rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    /* background: chartreuse; */
 }
 
 #left-div {
@@ -184,6 +185,7 @@ button:hover {
 
 p img {
     width: 2rem;
+    opacity: 10;
 }
 
 #quote-left-top {
@@ -226,9 +228,17 @@ p img {
     display: inline;
     margin-left: auto;
     margin-right: auto;
-    color: #000;
-    background: #fff;
-    max-width: 500px;
+    color: #CCCCCC;
+    background: #1b1b1aa1;
+    border-radius: 0.8em;
+    padding: 0.6em 1em;
+    box-sizing: border-box;
+    font-weight: 600;
+}
+
+hr {
+    width: 80%;
+    margin: 0 auto;
 }
 
 @media only screen and (max-width: 1200px) {
