@@ -235,16 +235,24 @@ p img {
 }
 
 @media only screen and (max-width: 768px) {
+    html {
+        font-size: 9.333px;
+    }
+
     .container {
         max-width: 720px;
-        /* background: red; */
+        /* background: blue; */
     }
 }
 
 @media only screen and (max-width: 576px) {
+    html {
+        font-size: 7px;
+    }
+
     .container {
         max-width: 1140px;
-        background: hsla(0, 34%, 47%, 0.25);
+        /* background: hsla(0, 34%, 47%, 0.25); */
     }
 }
 
