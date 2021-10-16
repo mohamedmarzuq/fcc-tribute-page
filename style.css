@@ -20,6 +20,7 @@ html {
      */  
     font-size: 11px;  
     scroll-behavior: smooth;
+    background: A1A1A6;
 }
 
 * {   
@@ -102,14 +103,14 @@ h3 {
     margin-top: -1.0rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 4.9rem;
+    /* line-height: 4.9rem; */
     text-shadow: 0px 4px 4px rgba(160, 78, 78, 0.25);
 }
 
 p {
     font-size: 2.25rem;
     line-height: 3.75rem;
-    padding-top: 2rem;
+    padding-top: 20px;
     font-weight: 500;
     color: #A1A1A6;
     font-style: normal;
@@ -265,13 +266,13 @@ footer {
 .copyright {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .copyright p {
     font-size: 16px;
     display: inline-block;
-    margin: 33px auto;
+    margin: 33px auto 10px;
     padding: 0;
     line-height: 33px;
     text-align: center;
@@ -314,23 +315,24 @@ footer {
 
 @media only screen and (max-width: 768px) {
     html {
-        font-size: 9.333px;
+        font-size: 9.99px;
     }
 
     .container {
         max-width: 720px;
-        /* background: blue; */
+        background: blue;
     }
 }
 
 @media only screen and (max-width: 576px) {
     html {
         font-size: 7px;
+        /* background-color: #F5F5F7; */
     }
 
     .container {
         max-width: 1140px;
-        /* background: hsla(0, 34%, 47%, 0.25); */ 
+        background: hsla(0, 34%, 47%, 0.25); 
     }
 }
 
