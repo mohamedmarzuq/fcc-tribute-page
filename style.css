@@ -346,13 +346,26 @@ footer {
 
 @media only screen and (max-width: 576px) {
     html {
-        font-size: 7px;
+        font-size: 8.547px;
         /* background-color: #F5F5F7; */
     }
 
     .container {
         max-width: 1140px;
         background: hsla(0, 34%, 47%, 0.25); 
+    }
+
+    #quote {
+        font-size: 2.85rem !important;
+    }
+
+    #quote-left-top {
+        left: -.55rem;
+        top: -.100rem;
+    }
+    #quote-right-bottom {
+        right: 3.999rem;
+        bottom: -0.2rem;
     }
 }
 
