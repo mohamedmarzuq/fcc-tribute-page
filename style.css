@@ -280,8 +280,22 @@ footer {
     font-weight: 500;
     color: #fff;
     /* background: chartreuse; */
-
 }
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
 
 @media only screen and (max-width: 1200px) {
     .container {
