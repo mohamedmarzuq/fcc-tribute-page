@@ -340,7 +340,7 @@ footer {
 
     .container {
         max-width: 720px;
-        background: blue;
+        /* background: blue; */
     }
 }
 
@@ -352,7 +352,7 @@ footer {
 
     .container {
         max-width: 1140px;
-        background: hsla(0, 34%, 47%, 0.25); 
+        /* background: hsla(0, 34%, 47%, 0.25);  */
     }
 
     #quote {
