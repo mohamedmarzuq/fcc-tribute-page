@@ -278,7 +278,11 @@ footer {
     color: #fff;
     /* background: chartreuse; */
 }
-
+#swiper-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .swiper {
     /* background-color: #CCCCCC; */
     width: 100%;
