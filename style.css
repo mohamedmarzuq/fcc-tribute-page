@@ -18,9 +18,8 @@ html {
     /*Setting a base font size of 10px gives us easier rem calculations
       Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth 
      */  
-    font-size: 11px;  
+    font-size: 10px;
     scroll-behavior: smooth;
-    background: A1A1A6;
 }
 
 * {   
@@ -122,7 +121,6 @@ span {
 }
 
 a {
-    color: #404346;
     text-decoration: none;
 }
 
@@ -335,7 +333,7 @@ footer {
 
 @media only screen and (max-width: 768px) {
     html {
-        font-size: 9.9px;
+        font-size: 9.5px;
     }
 
     .container {
@@ -346,7 +344,7 @@ footer {
 
 @media only screen and (max-width: 576px) {
     html {
-        font-size: 8.547px;
+        font-size: 8.5526px;
         /* background-color: #F5F5F7; */
     }
 
@@ -368,4 +366,23 @@ footer {
         bottom: -0.2rem;
     }
 }
+
+@media only screen and (max-width: 480px) {
+    html {
+        
+    }
+
+    /*#quote {
+        font-size: 2.85rem !important;
+    }
+
+    #quote-left-top {
+        left: -.55rem;
+        top: -.100rem;
+    }
+    #quote-right-bottom {
+        right: 3.999rem;
+        bottom: -0.2rem;
+    }*/
+} 
 
