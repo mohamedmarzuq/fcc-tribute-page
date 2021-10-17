@@ -5,4 +5,4 @@
  
  The fonts and theme are mainly inspired from https://apple.com. My friends [@sohail21400](https://github.com/sohail21400) and [@RayyanRNKJ](https://github.com/rayyanrnkj) has helped me a lot for UI designing and content writing. Thankyou so much Rayyan and Sohail uncle🙏.
  
- If you want to see the live page, click this -> https://mohamedmarzuq.github.io/fcc-tribute-page/.
+ If you want to see the live page, click this -> https://mohamedmarzuq.github.io/tim-cook/.
