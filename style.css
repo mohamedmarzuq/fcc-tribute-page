@@ -1,8 +1,7 @@
 /*colors declararations*/
  :root {
-    --first-color: #000;
-    --second-color: #fff;
-    --third-color: ;
+    --background-color: #1d1d1f;
+    --h3-paragraph-color: #A1A1A6;
 } 
 
 /* h2,h6,p,a{background-color: rgba(235, 27, 173, 0.424);}
@@ -96,7 +95,7 @@ h1 {
 }
 
 h3 {
-    color: #A1A1A6;
+    color: var(--h3-paragraph-color);
     font-size: 3rem;
     margin-top: -1.0rem;
     font-style: normal;
@@ -110,7 +109,7 @@ p {
     line-height: 3.75rem;
     padding-top: 20px;
     font-weight: 500;
-    color: #A1A1A6;
+    color: var(--h3-paragraph-color);
     font-style: normal;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -233,7 +232,7 @@ p img {
     margin-left: auto;
     margin-right: auto;
     color: #CCCCCC;
-    background: #1d1d1f;
+    background: var(--background-color);
     border-radius: 0.8em;
     padding: 0.6em 1em;
     box-sizing: border-box;
@@ -245,20 +244,20 @@ hr {
     margin: 0 auto;
     height: 0.4em;
     border-radius: 1em;
-    background-color: #1d1d1f;
+    background-color: var(--background-color);
     border: none;
 }
 
 footer {
     margin-top: 3em;
-    background: #1d1d1f !important;
+    background: var(--background-color) !important;
 }
 
 #footer {
     padding: 0 !important;
     margin-top: 0 !important;
     margin-bottom: 0;
-    background: #1d1d1f !important;
+    background: var(--background-color) !important;
 }
 .copyright {
     display: flex;
@@ -370,7 +369,7 @@ footer {
 @media only screen and (max-width: 480px) /*320px — 480px*/ {
 
     #quote {
-        font-size: 2.4rem !important;
+        font-size: 2.43rem !important;
     }
 
     #quote-left-top {
