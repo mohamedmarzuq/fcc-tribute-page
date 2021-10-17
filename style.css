@@ -368,23 +368,17 @@ footer {
 }
 
 @media only screen and (max-width: 480px) /*320px — 480px*/ {
-    html {
-        
+        #quote-left-top {
+            left: 2.7rem;
+            top: -.100rem;
+        }
+        #quote-right-bottom {
+            right: 1rem;
+            bottom: -0.2rem;
+        }
     }
 
     .container {
         /* background-color: aqua; */
     }
-
-    /*#quote {
-        font-size: 2.85rem !important;
-    }
-    #quote-left-top {
-        left: -.55rem;
-        top: -.100rem;
-    }
-    #quote-right-bottom {
-        right: 3.999rem;
-        bottom: -0.2rem;
-    }*/
 }
