@@ -381,3 +381,21 @@ footer {
         bottom: 0.01rem;
     }
 }
+
+@media only screen and (max-width: 390px) /*320px — 480px*/ {
+    html {
+        font-size: 8.3px;
+    }
+}
+
+@media only screen and (max-width: 380px)  {
+    html {
+        font-size: 8.2px;
+    }
+}
+
+@media only screen and (max-width: 376px)  {
+    html {
+        font-size: 8px;
+    }
+}
