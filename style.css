@@ -75,7 +75,7 @@ h1 {
     font-weight: bold;
     font-style: normal;
     /*max-width: 5000.83px !important;*/ /*this width and height have doubt in responsiveness. Change tis width and height to a div or like parent div*/
-    max-height: 65px;
+    /* max-height: 65px; */
     display: flex;
     /* justify-content: center; */
     align-items: center;
@@ -370,6 +370,7 @@ footer {
 
     #quote {
         font-size: 2.43rem !important;
+
     }
 
     #quote-left-top {
@@ -383,6 +384,14 @@ footer {
 } 
 
 @media only screen and (max-width: 413px) /*320px — 480px*/ {
+
+    h1 {
+        font-size: 6.3rem;
+    }
+
+    h3 {
+        
+    }
 
     #quote {
         font-size: 2.4rem !important;
