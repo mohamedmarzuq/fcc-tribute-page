@@ -372,6 +372,10 @@ footer {
         
     }
 
+    .container {
+        background-color: aqua;
+    }
+
     /*#quote {
         font-size: 2.85rem !important;
     }
