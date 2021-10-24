@@ -125,7 +125,7 @@ a {
 }
 
 a:visited {
-    color: #fff;
+    color: #fff !important;
 }
 
 a:hover {
@@ -290,7 +290,7 @@ footer {
     text-align: center;
     font-style: normal;
     font-weight: 500;
-    color: #fff;
+    color: #fff !important;
     /* background: chartreuse; */
 }
 #swiper-slider {
