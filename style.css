@@ -310,7 +310,7 @@ footer {
     justify-content: center;
 }
 .swiper {
-    /* background-color: #CCCCCC; */
+    background-color: #000;
     width: 100%;
     height: 100%;
     display: flex;
@@ -322,6 +322,7 @@ footer {
   .swiper-slide {
     background-position: center;
     background-size: cover;
+    background-color: #000;
   }
 
   .swiper-slide img {
@@ -329,6 +330,7 @@ footer {
     width: 33rem;
     height: auto;
     margin: auto;
+    background-color: #000;
   }
 
 @media only screen and (max-width: 1200px) {
