@@ -324,9 +324,12 @@ footer {
     font-weight: 600; 
     border-radius: 0.8em; 
     margin-top: 30px; 
-    color: red; 
-    background-color: #1d1d1f; 
+    color: #F5F5F7; 
+    background-color: rgba(128, 5, 5, 0.609); 
     padding: 0.3em 1em;
+    color: #721c24;
+    background-color: #fd8892;
+    border-color: #f5c6cb;
 
 }
 
