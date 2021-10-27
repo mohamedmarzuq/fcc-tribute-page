@@ -257,6 +257,7 @@ footer {
 }
 
 #footer-container {
+    padding: 0;
     margin: 0 auto;
 }
 
@@ -369,6 +370,10 @@ footer {
     #quote-right-bottom {
         right: 3.47rem;
         bottom: 0.01rem;
+    }
+
+    #footer-p {
+        font-size: ;
     }
 }
 
