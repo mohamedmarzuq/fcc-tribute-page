@@ -6,13 +6,6 @@ section{background-color: #000000 !important;}
 main{background-color: #74638f;} 
 body{color: white;} */
 
-/*colors declararations*/
-:root {
-    --first-color: #000;
-    --second-color: #fff;
-    --third-color: ;
-} 
-
 html {
     /*Setting a base font size of 10px gives us easier rem calculations
       Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth 
@@ -30,7 +23,6 @@ body {
 }
 
 /* START GLOBAL */
-
 * {   
   margin: 0;
   padding: 0;
@@ -115,7 +107,7 @@ button:hover {
 }
 /* END GLOBAL */
 
-/* SECTION-1-END */
+/* MAIN START */
 #container-1 {
     padding-top: 26px !important;
     margin-top: 0;
@@ -199,9 +191,9 @@ p img {
     right: 5.3rem;
     bottom: -0.2rem;
 }
-/* SECTION-1-END */
+/* MAIN END */
 
-/* SECTION-2-START */
+/* SECTION 2 START */
 #tim-paragraph {
     display: flex;
     align-items: center;
@@ -231,7 +223,7 @@ p img {
     margin-top: 30px; 
     color: #F5F5F7; 
     background-color: rgba(128, 5, 5, 0.609); 
-    padding: 0.1em 1em;
+    padding: 0.3em 1em;
     color: #721c24;
     background-color: #fd8892;
     border-color: #f5c6cb;
@@ -266,8 +258,9 @@ p img {
     margin: auto;
     background-color: #000;
 }
-/* SECTION-2-END */
+/* SECTION 2 END */
 
+/* FOOTER START */
 footer {
     margin-top: 3em;
     background: #1d1d1f !important;
@@ -305,6 +298,7 @@ footer {
     font-weight: 500;
     color: #fff !important;
 }
+/* FOOTER END */
 
 @media only screen and (max-width: 1200px) {
     .container {
@@ -341,12 +335,10 @@ footer {
 @media only screen and (max-width: 576px) {
     html {
         font-size: 8.5526px;
-        /* background-color: #F5F5F7; */
     }
 
     .container {
         max-width: 1140px;
-        /* background: hsla(0, 34%, 47%, 0.25);  */
     }
 
     #quote {
