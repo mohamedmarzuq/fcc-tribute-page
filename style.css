@@ -108,7 +108,7 @@ button:hover {
 /* END GLOBAL */
 
 /* MAIN START */
-#container-1 {
+#main-container {
     padding-top: 26px !important;
     margin-top: 0;
 }
@@ -266,7 +266,7 @@ footer {
     background: #1d1d1f !important;
 }
 
-#container-footer {
+#footer-container {
     padding: 0 !important;
     margin-top: 0 !important;
     margin-bottom: 0;
