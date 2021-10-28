@@ -5,7 +5,10 @@ h1{background-color: violet; margin: 0;}
 section{background-color: #000000 !important;} 
 main{background-color: #74638f;} 
 body{color: white;} */
-
+:root {
+    --swiper-theme-color: transparent !important;
+     --swiper-navigation-size: 0 !important;
+}
 html {
     /*Setting a base font size of 10px gives us easier rem calculations
       Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth 
@@ -143,7 +146,7 @@ button:hover {
 }
 #img-caption {
     font-size: 0.1px;
-    color: #fff;
+    color: transparent;
     position: absolute;
     left: -1000px;
 }
@@ -267,8 +270,7 @@ footer {
 }
 
 .copyright p {
-    font-size: 16px;
-    display: inline-block;
+    font-size: 16px; 
     margin: 33px auto 10px;
     padding: 0;
     line-height: 33px;
@@ -281,7 +283,6 @@ footer {
 #footer-link1,
 #footer-link2 {
     color: #fff !important;
-
 }
 /* FOOTER END */
 
@@ -371,9 +372,9 @@ footer {
         right: 3.47rem;
         bottom: 0.01rem;
     }
-
-    #footer-p {
-        font-size: ;
+    
+    .copyright p {
+        font-size: 14.5px;
     }
 }
 
@@ -392,5 +393,9 @@ footer {
 @media only screen and (max-width: 376px)  {
     html {
         font-size: 8px;
+    }
+
+    .copyright p {
+        font-size: 13px;
     }
 }
