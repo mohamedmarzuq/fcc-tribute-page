@@ -230,6 +230,7 @@ p img {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #000;
 }
 .swiper {
     width: 100%;
@@ -238,6 +239,7 @@ p img {
     align-items: center;
     justify-content: center;
     margin-top: 5rem;
+    background-color: #000;
 }
 .swiper-slide {
     background-position: center;
@@ -249,6 +251,7 @@ p img {
     width: 33rem;
     height: auto;
     margin: auto;
+    background-color: #000;
 }
 /* SECTION 2 END */
 
