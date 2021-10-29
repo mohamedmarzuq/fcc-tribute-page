@@ -349,7 +349,7 @@ footer {
     }
 
     #quote {
-        font-size: 2.85rem !important;
+        font-size: 2.7rem !important;
     }
 
     #quote-left-top {
@@ -364,7 +364,7 @@ footer {
 
 @media only screen and (max-width: 437px) /*320px — 480px*/ {
     #quote {
-        font-size: 2.5rem !important;
+        font-size: 2.43rem !important;
     }
 
     #quote-left-top {
