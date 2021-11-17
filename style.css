@@ -136,6 +136,10 @@ button:hover {
     margin-top: 0;
 }
 
+#tim_signature {
+    margin: 10px;
+}
+
 #img-div {
     display: flex;
     align-items: center;
