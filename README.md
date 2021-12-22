@@ -7,4 +7,4 @@
  
  My friends [@sohail21400](https://github.com/sohail21400) and [@RayyanRNKJ](https://github.com/rayyanrnkj) has helped me a lot for UI designing and content writing. Thankyou so much Rayyan and Sohail uncle🙏.
  
- If you want to see the live page, click this -> https://mohamedmarzuq5.github.io/tim-cook/.
+ If you want to see the live page, click this -> https://tim-cook.vercel.app.
