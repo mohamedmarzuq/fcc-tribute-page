@@ -48,33 +48,40 @@
               #signature-1 {
                 stroke-dasharray: 54.92353057861328;
                 stroke-dashoffset: 54.92353057861328;
-                animation: signature-1 4.1s ease-in;
+                animation: signature-1 6s ease-in;
                 animation-fill-mode: forwards;
               }
 
               #signature-2 {
                 stroke-dasharray: 72.08697509765625;
                 stroke-dashoffset: 72.08697509765625;
-                animation: signature-2 4.1s ease;
+                animation: signature-2 6s ease;
                 animation-fill-mode: forwards;
               }
 
               #signature-3 {
                 stroke-dasharray: 252.8866729736328;
                 stroke-dashoffset: 252.8866729736328;
-                animation: signature-3 4.1s ease;
+                animation: signature-3 6s ease;
                 animation-fill-mode: forwards;
               }
 
               #signature-4 {
                 stroke-dasharray: 617.0612182617188;
                 stroke-dashoffset: 617.0612182617188;
-                animation: signature-4 4.1s ease-out;
+                animation: signature-4 6s ease-out;
                 animation-fill-mode: forwards;
               }
 
               @keyframes signature-1 {
-                13% {
+                0% {
+                  stroke-dashoffset: 54.92353057861328;
+                }
+                50% {
+                  stroke-dashoffset: 54.92353057861328;
+                }
+
+                57% {
                   stroke-dashoffset: 0;
                 }
 
@@ -84,11 +91,11 @@
               }
 
               @keyframes signature-2 {
-                13% {
+                57% {
                   stroke-dashoffset: 72.08697509765625;
                 }
 
-                25% {
+                66% {
                   stroke-dashoffset: 0;
                 }
 
@@ -98,11 +105,11 @@
               }
 
               @keyframes signature-3 {
-                25% {
+                66% {
                   stroke-dashoffset: 252.8866729736328;
                 }
 
-                50% {
+                77% {
                   stroke-dashoffset: 0;
                 }
 
@@ -112,7 +119,7 @@
               }
 
               @keyframes signature-4 {
-                50% {
+                77% {
                   stroke-dashoffset: 617.0612182617188;
                 }
 
