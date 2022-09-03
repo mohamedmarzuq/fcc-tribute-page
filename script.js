@@ -3,7 +3,8 @@ var swiper = new Swiper(".mySwiper", {
   effect: "fade",
   loop:true,
     clickable: true,
-  }, autoplay: {
+  }, 
+  autoplay: {
     delay: "3000",
     disableOnInteraction: false,                   
   }
